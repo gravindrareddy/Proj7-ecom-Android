@@ -1,4 +1,4 @@
-package com.hackathon;
+package com.ecommerce;
 
 import android.app.Application;
 

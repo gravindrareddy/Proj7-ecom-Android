@@ -1,4 +1,4 @@
-package com.hackathon.seller.fragments;
+package com.ecommerce.seller.fragments;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,17 +23,15 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.hackathon.R;
-import com.hackathon.SignInActivity;
-import com.hackathon.buyer.BuyerHomeActivity;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.Order;
-import com.hackathon.seller.SellerHomeActivity;
-import com.hackathon.utils.StringConstants;
+import com.ecommerce.R;
+import com.ecommerce.SignInActivity;
+import com.ecommerce.buyer.BuyerHomeActivity;
+import com.ecommerce.data.Campaign;
+import com.ecommerce.data.Order;
+import com.ecommerce.seller.SellerHomeActivity;
+import com.ecommerce.utils.StringConstants;
 
 import java.util.ArrayList;
-
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 public class SellerProductDetailsFragment extends Fragment implements View.OnClickListener {
     private Activity activity;

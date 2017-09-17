@@ -1,4 +1,4 @@
-package com.hackathon;
+package com.ecommerce;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -38,10 +38,10 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.Order;
-import com.hackathon.data.User;
-import com.hackathon.utils.StringConstants;
+import com.ecommerce.data.Campaign;
+import com.ecommerce.data.Order;
+import com.ecommerce.data.User;
+import com.ecommerce.utils.StringConstants;
 
 import java.io.File;
 import java.util.ArrayList;

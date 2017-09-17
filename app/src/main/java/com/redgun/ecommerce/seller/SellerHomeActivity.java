@@ -1,4 +1,4 @@
-package com.hackathon.seller;
+package com.ecommerce.seller;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.hackathon.R;
-import com.hackathon.seller.fragments.SellerProductListFragment;
+import com.ecommerce.R;
+import com.ecommerce.seller.fragments.SellerProductListFragment;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

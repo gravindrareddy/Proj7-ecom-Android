@@ -1,8 +1,7 @@
-package com.hackathon.seller.fragments;
+package com.ecommerce.seller.fragments;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,17 +20,14 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.hackathon.R;
-import com.hackathon.SplashActivity;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.Order;
-import com.hackathon.seller.SellerHomeActivity;
+import com.ecommerce.R;
+import com.ecommerce.data.Campaign;
+import com.ecommerce.seller.SellerHomeActivity;
 import com.rapidbizapps.android.pickAPic.OnGetOriginalBitmap;
 import com.rapidbizapps.android.pickAPic.OnImageSelect;
 import com.rapidbizapps.android.pickAPic.PikAPic;

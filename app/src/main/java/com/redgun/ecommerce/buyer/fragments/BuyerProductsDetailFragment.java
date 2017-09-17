@@ -1,4 +1,4 @@
-package com.hackathon.buyer.fragments;
+package com.ecommerce.buyer.fragments;
 
 
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.hackathon.R;
+import com.ecommerce.R;
 
 
 /**

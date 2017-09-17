@@ -1,4 +1,4 @@
-package com.hackathon.data;
+package com.ecommerce.data;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 

@@ -1,4 +1,4 @@
-package com.hackathon;
+package com.ecommerce;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.hackathon.buyer.BuyerHomeActivity;
-import com.hackathon.seller.SellerHomeActivity;
+import com.ecommerce.buyer.BuyerHomeActivity;
+import com.ecommerce.seller.SellerHomeActivity;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

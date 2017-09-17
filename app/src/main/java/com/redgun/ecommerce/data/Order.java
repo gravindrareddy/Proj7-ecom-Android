@@ -1,8 +1,6 @@
-package com.hackathon.data;
+package com.ecommerce.data;
 
 import com.google.firebase.database.IgnoreExtraProperties;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.User;
 
 /**
  * Created by gravi on 07-09-2017.

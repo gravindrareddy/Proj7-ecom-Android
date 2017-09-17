@@ -1,4 +1,4 @@
-package com.hackathon.utils;
+package com.ecommerce.utils;
 
 /**
  * Created by Administrator on 9/8/2017.

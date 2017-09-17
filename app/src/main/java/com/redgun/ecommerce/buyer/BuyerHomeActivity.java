@@ -1,4 +1,4 @@
-package com.hackathon.buyer;
+package com.ecommerce.buyer;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,9 +7,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.hackathon.R;
-import com.hackathon.buyer.fragments.BuyerProductFragment;
-import com.hackathon.buyer.fragments.BuyerProductsDetailFragment;
+import com.ecommerce.R;
+import com.ecommerce.buyer.fragments.BuyerProductFragment;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

@@ -1,4 +1,4 @@
-package com.hackathon.seller.fragments;
+package com.ecommerce.seller.fragments;
 
 
 import android.app.Activity;
@@ -23,18 +23,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.hackathon.R;
-import com.hackathon.buyer.BuyerHomeActivity;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.User;
-import com.hackathon.seller.SellerHomeActivity;
+import com.ecommerce.R;
+import com.ecommerce.data.Campaign;
+import com.ecommerce.seller.SellerHomeActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.hackathon.R.id.imageView;
-import static java.lang.System.load;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package com.hackathon.buyer.fragments;
+package com.ecommerce.buyer.fragments;
 
 
 import android.app.Activity;
@@ -30,14 +30,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.hackathon.R;
-import com.hackathon.SignInActivity;
-import com.hackathon.buyer.BuyerHomeActivity;
-import com.hackathon.data.Campaign;
-import com.hackathon.data.User;
-import com.hackathon.seller.SellerHomeActivity;
-import com.hackathon.seller.fragments.SellerProductDetailsFragment;
-import com.hackathon.utils.StringConstants;
+import com.ecommerce.R;
+import com.ecommerce.SignInActivity;
+import com.ecommerce.buyer.BuyerHomeActivity;
+import com.ecommerce.data.Campaign;
+import com.ecommerce.seller.SellerHomeActivity;
+import com.ecommerce.seller.fragments.SellerProductDetailsFragment;
+import com.ecommerce.utils.StringConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

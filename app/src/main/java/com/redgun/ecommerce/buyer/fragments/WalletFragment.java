@@ -1,4 +1,4 @@
-package com.hackathon.buyer.fragments;
+package com.ecommerce.buyer.fragments;
 
 
 import android.app.Activity;
@@ -12,9 +12,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.hackathon.R;
-import com.hackathon.buyer.BuyerHomeActivity;
-import com.hackathon.seller.SellerHomeActivity;
+import com.ecommerce.R;
+import com.ecommerce.buyer.BuyerHomeActivity;
 
 /**
  * A simple {@link Fragment} subclass.
