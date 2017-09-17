@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_onclick_seller_productList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/iv_product_seller_productList"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/tv_name_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/iv_product_seller_productList"
+                android:text="Moto e"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_cost_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:text="Rs.2255"
+                android:textColor="#574a86"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_base_discount_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="10%"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_total_discount_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:text="14%"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar_seller_productList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/progress_drawable"
+            android:thumb="@null" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/tv_base_units_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="#000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_total_units_seller_productList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:text="100 units"
+                android:textColor="#000"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/view_divider_seller_productList"
+        android:background="#cfcfcf"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

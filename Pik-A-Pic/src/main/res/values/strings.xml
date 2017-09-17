@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pik-A-Pic</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_camera">Camera</string>
+    <string name="noImageRead">Could not read the image</string>
+    <string name="SelectUsing">Select Using</string>
+    <string name="NoPermission">Can not continue without permission</string>
+    <string name="CameraError">Camera Error</string>
+    <string name="ProcessCancelled">Process Cancelled</string>
+    <string name="ImageNotAvailable">Image not Available</string>
+    <string name="InvalidImageSelected">Invalid image selected</string>
+    <string name="default_dialog_title">Choose image from:</string>
+</resources>

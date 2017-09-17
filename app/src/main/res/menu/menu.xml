@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item android:id="@+id/action_wallet"
+        android:title="Wallet"
+        android:icon="@drawable/wallet"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_seller"
+        android:title="Seller"
+        android:icon="@drawable/wallet"
+        android:orderInCategory="300"
+        app:showAsAction="collapseActionView" />
+</menu>

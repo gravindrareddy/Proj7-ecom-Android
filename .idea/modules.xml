@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hackathon.iml" filepath="$PROJECT_DIR$/Hackathon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pik-A-Pic/Pik-A-Pic.iml" filepath="$PROJECT_DIR$/Pik-A-Pic/Pik-A-Pic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pik-A-Pic/Pik-A-Pic.iml" filepath="$PROJECT_DIR$/Pik-A-Pic/Pik-A-Pic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecom.iml" filepath="$PROJECT_DIR$/ecom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecom.iml" filepath="$PROJECT_DIR$/ecom.iml" />
+    </modules>
+  </component>
+</project>
